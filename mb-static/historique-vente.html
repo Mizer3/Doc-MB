@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <title>Historique des ventes</title>
+      <link
+        rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>"
+      />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="css/front.css" />
+    </head>
+    <body>
+      <header>
+        <div class="col-2 col-sm-1">
+          <a href="{{path('home')}}">
+            <img src="images/Logo.png" alt="" class="img-fluid logo" />
+          </a>
+        </div>
+        <div class="col-7 d-sm-none"></div>
+        <div class="col-sm-9 background-nav">
+          <nav class="navbar navbar-light bg-light background-nav nav-none">
+            <div class="container-fluid justify-content-center background-nav">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-style" type="submit">
+                  <img src="/images/musique.png" alt="" class="img-size" />
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="col-3 col-sm-2 d-flex justify-content-around">
+          <a href="{{path('home')}}"
+            ><img
+              src="/images/shopping-basket.png"
+              alt=""
+              class="img-fluid basket"
+          /></a>
+          <button class="burger">
+            <div class="bar"></div>
+            <nav class="menu">
+              <a href="{{path('home')}}">Accueil</a>
+              <a href="{{path('app_login')}}">Connexion</a>
+              <a href="{{path('instrumental')}}">Instrumental</a>
+              <a href="">Beatmaker</a>
+              <a href="">Panier</a>
+              <a href="" class="d-sm-none">Rechercher</a>
+            </nav>
+          </button>
+        </div>
+      </header>
+      <main class="container">
+          <h1>Historique des ventes</h1>
+           <table class="col-12 d-flex justify-content-center row">
+                <tr>
+                    <td class="lien pt-4 pb-3">
+                        <a href="" >1111111111</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lien pb-3">
+                        <a href="" >2222222222</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lien pb-3">
+                        <a href="" >3333333333</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lien pb-3">
+                        <a href="" >4444444444</a>
+                    </td>
+                </tr>
+           </table>
+        </div>
+      </main>
+      <footer></footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="js/front.js"></script>
+    </body>
+  </html>
+</html>
